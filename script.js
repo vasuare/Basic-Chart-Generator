@@ -52,12 +52,12 @@ function drawChart() {
     var datos = document.getElementById("datos").getElementsByTagName("input");
 
     //Controlo que todos los input tengan un valor cargado y válido
-    for (let i = 0; i < datos.length; i++) {
-        if (datos[i].value === "" || (datos[i].type === "number" && parseFloat(datos[i].value) <= 0)) {
-            alert("Cargue todos los campos con valores válidos.");
-            return;
-        }
-    }
+    //for (let i = 0; i < datos.length; i++) {
+    //    if (datos[i].value === "" || (datos[i].type === "number" && parseFloat(datos[i].value) <= 0)) {
+    //        alert("Cargue todos los campos con valores válidos.");
+    //        return;
+    //    }
+    // }
 
     //El primer par [x,x] a insertar en arregloDatos debe ser info del grafico.
     //Esta info no es visible, por lo tanto es indistinto el valor que le asignemos
